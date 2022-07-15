@@ -1,47 +1,19 @@
-#  Kickstarting with Excel
+#  Stock Analysis Refactoring
 
 ## Overview of Project
-A visualization and interpretation of Kickstarter campaign outcomes.
+A visualization and interpretation of refactoring VBA code to run faster.
 
 ### Purpose
-Using a curated Kickstarter campaign dataset that includes fields such as success/failure results, categories, subcategories, and pledged dollar amounts, this report will attempt to illustrate the relationship between a project's success or failure with respect to both its launch date and its funding goal.  The focus of the report will be specific to theatrical plays.
-
----
-
-## Analysis and Challenges
-
-### Analysis of Outcomes Based on Launch Date
-
-Please refer to the following graph:
-
-![Theater Outcomes vs Launch](/Theater_Outcomes_vs_Launch.png)
-
-- The gross amount of launches generally ramp up from January through May, and then begin a decline from there.
-- Failed launches remain relatively flat with respect to Successful launches.
-- Two thirds of the data is culled from the United States alone for Theater Kickstarter campaigns.  The trendlines of just US data matches that of the whole dataset.  One theory as to why Successful launches peak in May is that many small dollar donors receive their IRS tax refund checks in this timeframe, and have more disposable income than at other times of the year.
-- One other theory as to why all launches decline in Q4 is that small dollar donors are saving up to purchase gifts for the holidays.
-
- ### Analysis of Outcomes Based on Goals
- 
- Please refer to the following graph:
- 
- ![Outcomes vs Goals](/Outcomes_vs_Goals.png)
- 
- - 50 percent of all Theater Play Kickstarter campaigns that ask for less than $15,000 as a goal are funded.
- - Somewhat surprisingly, Theater Play Kickstarter campaigns that ask for anywhere from $35,000 to $45,000 as a goal are also funded.
- - One should take into account, however, that approximately 90% of the total projects were in the 0-to-$14,999 range, whereas less than one percent of all Theater Play campaigns were asking for $35,000-to-$45,000.
-
-### Challenges and Difficulties Encountered
-
-- When creating the table that drives the Outcomes Based on Goals graph, a significant amount of manual labor was required to derive the values.  It was difficult to automate the process of collecting the data for the dataset.  This method is prone to a significant amount of errors, as other peers would attest to.
+Using a curated stock price dataset that includes fields such as dates, volumes, and prices, this report will attempt to show how refactoring VBA code makes it more efficient.  The focus of the report will be refactoring code running against the years 2017 and 2018.
 
 ---
 
 ## Results
 
-### Outcomes Based on Launch Date
-1. Launching a campaign in the April-June timeframe is the most advantageous for garnering funding.
-2. The smallest chance to have a failed campaign is in the November-December timeframe.
+### Stock performance from 2018 compared to 2017
+1. Only two stocks increased in value from the end of 2017 to the end of 2018.
+a. One possible reason that many of the energy stocks in this selection lost value in 2018 was due to energy policies of the Trump Administration being hostile towards alternative forms of energy production.
+2. The amount of time it took to .
 
 ### Outcomes Based on Goals
 1. Significant success can be found in setting a modest goal (less than $15,000) for funding.
