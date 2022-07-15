@@ -15,6 +15,8 @@ Using a curated stock price dataset that includes fields such as dates, volumes,
 a. One possible reason that many of the energy stocks in this selection lost value in 2018 was due to energy policies of the Trump Administration being hostile towards alternative forms of energy production.
 2. The amount of time it took to .
 
+![Theater Outcomes vs Launch](/Theater_Outcomes_vs_Launch.png)
+
 ### Outcomes Based on Goals
 1. Significant success can be found in setting a modest goal (less than $15,000) for funding.
 2. Failure of funding rises precipitously as goal amount increases.
